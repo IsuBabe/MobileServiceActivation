@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add codes"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="10dp" 
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/etAddService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the service name"
+        android:layout_marginBottom="10dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etAddCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the code" 
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/bSaveService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save" />
+
+</LinearLayout>

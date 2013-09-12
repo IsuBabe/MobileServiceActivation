@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:entries="@array/list"
+        android:entryValues="@array/lValues"
+        android:key="list"
+        android:summary="Select the type of sim you are using from hear"
+        android:title="Service Provider" >
+    </ListPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox"
+        android:summary="Do you want music?"
+        android:title="Music" />
+
+</PreferenceScreen>
